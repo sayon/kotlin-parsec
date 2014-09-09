@@ -1,0 +1,38 @@
+<modules>
+    <!-- Module script for production -->
+    <module name="tests" outputDir="D:/repos/kotlin-parsec/out/production/tests">
+        <sources path="D:/repos/kotlin-parsec/tests/src/PagedSeqTest.kt"/>
+        <!-- Classpath -->
+        <classpath path="D:/jdk/jre/lib/charsets.jar"/>
+        <classpath path="D:/jdk/jre/lib/deploy.jar"/>
+        <classpath path="D:/jdk/jre/lib/javaws.jar"/>
+        <classpath path="D:/jdk/jre/lib/jce.jar"/>
+        <classpath path="D:/jdk/jre/lib/jfr.jar"/>
+        <classpath path="D:/jdk/jre/lib/jfxrt.jar"/>
+        <classpath path="D:/jdk/jre/lib/jsse.jar"/>
+        <classpath path="D:/jdk/jre/lib/management-agent.jar"/>
+        <classpath path="D:/jdk/jre/lib/plugin.jar"/>
+        <classpath path="D:/jdk/jre/lib/resources.jar"/>
+        <classpath path="D:/jdk/jre/lib/rt.jar"/>
+        <classpath path="D:/jdk/jre/lib/ext/access-bridge-64.jar"/>
+        <classpath path="D:/jdk/jre/lib/ext/dnsns.jar"/>
+        <classpath path="D:/jdk/jre/lib/ext/jaccess.jar"/>
+        <classpath path="D:/jdk/jre/lib/ext/localedata.jar"/>
+        <classpath path="D:/jdk/jre/lib/ext/sunec.jar"/>
+        <classpath path="D:/jdk/jre/lib/ext/sunjce_provider.jar"/>
+        <classpath path="D:/jdk/jre/lib/ext/sunmscapi.jar"/>
+        <classpath path="D:/jdk/jre/lib/ext/zipfs.jar"/>
+        <!-- Output directory, commented out -->
+        <!-- 
+            <classpath path="D:/repos/kotlin-parsec/out/production/tests"/>
+        -->
+        <classpath path="C:/Users/igor/.IdeaIC13/config/plugins/Kotlin/kotlinc/lib/kotlin-runtime.jar"/>
+        <classpath path="C:/Program Files (x86)/JetBrains/IntelliJ IDEA Community Edition 13.0/lib/junit-4.10.jar"/>
+        <classpath path="D:/repos/kotlin-parsec/out/production/parsec"/>
+        <!-- Java Source Roots -->
+        <classpath path="D:/repos/kotlin-parsec/tests/src"/>
+        <!-- External annotations -->
+        <externalAnnotations path= "C:/Program Files (x86)/JetBrains/IntelliJ IDEA Community Edition 13.0/lib/jdkAnnotations.jar"/>
+        <externalAnnotations path= "C:/Users/igor/.IdeaIC13/config/plugins/Kotlin/kotlinc/lib/kotlin-jdk-annotations.jar"/>
+    </module>
+</modules>

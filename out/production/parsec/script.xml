@@ -1,0 +1,50 @@
+<modules>
+    <!-- Module script for production -->
+    <module name="parsec" outputDir="D:/repos/kotlin-parsec/out/production/parsec">
+        <sources path="D:/repos/kotlin-parsec/parsec/src/jet/util.parsing.combinator/Parsers.kt"/>
+        <sources path="D:/repos/kotlin-parsec/parsec/src/jet/util.parsing.combinator/lexical/Lexical.kt"/>
+        <sources path="D:/repos/kotlin-parsec/parsec/src/jet/util.parsing.combinator/lexical/Scanners.kt"/>
+        <sources path="D:/repos/kotlin-parsec/parsec/src/jet/util.parsing.combinator/test/MyClass.kt"/>
+        <sources path="D:/repos/kotlin-parsec/parsec/src/jet/util.parsing.combinator/token/StdTokens.kt"/>
+        <sources path="D:/repos/kotlin-parsec/parsec/src/jet/util.parsing.combinator/token/Tokens.kt"/>
+        <sources path="D:/repos/kotlin-parsec/parsec/src/jet/util/parsing/input/CharSequenceReader.kt"/>
+        <sources path="D:/repos/kotlin-parsec/parsec/src/jet/util/parsing/input/Common.kt"/>
+        <sources path="D:/repos/kotlin-parsec/parsec/src/jet/util/parsing/input/PagedSeq.kt"/>
+        <sources path="D:/repos/kotlin-parsec/parsec/src/jet/util/parsing/input/PagedSeqReader.kt"/>
+        <sources path="D:/repos/kotlin-parsec/parsec/src/jet/util/parsing/input/Position.kt"/>
+        <sources path="D:/repos/kotlin-parsec/parsec/src/jet/util/parsing/input/Positional.kt"/>
+        <sources path="D:/repos/kotlin-parsec/parsec/src/jet/util/parsing/input/Reader.kt"/>
+        <sources path="D:/repos/kotlin-parsec/parsec/src/jet/util/parsing/input/StreamReader.kt"/>
+        <!-- Classpath -->
+        <classpath path="D:/jdk/jre/lib/charsets.jar"/>
+        <classpath path="D:/jdk/jre/lib/deploy.jar"/>
+        <classpath path="D:/jdk/jre/lib/javaws.jar"/>
+        <classpath path="D:/jdk/jre/lib/jce.jar"/>
+        <classpath path="D:/jdk/jre/lib/jfr.jar"/>
+        <classpath path="D:/jdk/jre/lib/jfxrt.jar"/>
+        <classpath path="D:/jdk/jre/lib/jsse.jar"/>
+        <classpath path="D:/jdk/jre/lib/management-agent.jar"/>
+        <classpath path="D:/jdk/jre/lib/plugin.jar"/>
+        <classpath path="D:/jdk/jre/lib/resources.jar"/>
+        <classpath path="D:/jdk/jre/lib/rt.jar"/>
+        <classpath path="D:/jdk/jre/lib/ext/access-bridge-64.jar"/>
+        <classpath path="D:/jdk/jre/lib/ext/dnsns.jar"/>
+        <classpath path="D:/jdk/jre/lib/ext/jaccess.jar"/>
+        <classpath path="D:/jdk/jre/lib/ext/localedata.jar"/>
+        <classpath path="D:/jdk/jre/lib/ext/sunec.jar"/>
+        <classpath path="D:/jdk/jre/lib/ext/sunjce_provider.jar"/>
+        <classpath path="D:/jdk/jre/lib/ext/sunmscapi.jar"/>
+        <classpath path="D:/jdk/jre/lib/ext/zipfs.jar"/>
+        <classpath path="D:/jdk/lib/tools.jar"/>
+        <!-- Output directory, commented out -->
+        <!-- 
+            <classpath path="D:/repos/kotlin-parsec/out/production/parsec"/>
+        -->
+        <classpath path="C:/Users/igor/.IdeaIC13/config/plugins/Kotlin/kotlinc/lib/kotlin-runtime.jar"/>
+        <!-- Java Source Roots -->
+        <classpath path="D:/repos/kotlin-parsec/parsec/src"/>
+        <!-- External annotations -->
+        <externalAnnotations path= "C:/Program Files (x86)/JetBrains/IntelliJ IDEA Community Edition 13.1.3/lib/jdkAnnotations.jar"/>
+        <externalAnnotations path= "C:/Users/igor/.IdeaIC13/config/plugins/Kotlin/kotlinc/lib/kotlin-jdk-annotations.jar"/>
+    </module>
+</modules>
